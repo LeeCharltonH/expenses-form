@@ -23,8 +23,14 @@
   transition: all 0.3s ease-out;
 }
 
-.chart-bar__label {
+.chart-name__label {
   font-weight: bold;
-  font-size: 0.5rem;
+  font-size: 0.8rem;
   text-align: center;
+}
+
+@media (max-width:600px){
+  .chart-name__label {
+    font-size: 0.5rem;
+  }
 }
